@@ -3,6 +3,12 @@
     "next/core-web-vitals",
     "airbnb",
     "airbnb-typescript",
-    "airbnb/hooks"
-  ]
+    "airbnb/hooks",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "project":["./tsconfig.json"],
+    "sourceType": "module"
+  }
 }
